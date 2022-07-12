@@ -4,4 +4,5 @@ A heap is called a max heap (descending heap) if all the nodes of the tree havin
 In a max heap reoot will keep the largest value.
 
 Left child: 2 * Parent Index
-Right Child: 2 * Parent Index +1
+
+Right child: 2 * Parent Index +1
