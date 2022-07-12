@@ -15,12 +15,12 @@ int main(){
         scanf("%d", &array[i]);
     }
     //print array
-    printf("Array is:\n");
+    printf("\n\nArray is: ");
     printArray(array, size);
     
     //printf the new array
     buildHeap(array, size);
-    printf("Array representation of Heap is :");
+    printf("Array representation of Heap is: ");
     printArray(array, size);
     return 0;
 }
@@ -64,4 +64,3 @@ void buildHeap(int array[], int n){
         heapify(array, n, i);
     }
 }
-
